@@ -30,6 +30,22 @@ The project checks the server periodically and identifies whether important reso
 
 ---
 
+## 🖼️ Project Screenshots
+
+### ServerWatch Output
+
+![ServerWatch Output](serverwatch-output.png)
+
+### Health Report
+
+![Health Report](health-report.png)
+
+### ServerWatch Project Structure
+
+![Project Structure](project-structure.png)
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -49,17 +65,25 @@ ServerWatch/
 ├── reports/
 │   └── health_report.txt
 │
+├── images/
+│   ├── serverwatch-output.png
+│   ├── health-report.png
+│   └── project-structure.png
+│
 └── README.md
 ```
 
 ### File Description
 
-| File / Directory  | Description               |
-| ----------------- | ------------------------- |
-| `serverwatch.sh`  | Main monitoring script    |
-| `logs/`           | Stores monitoring logs    |
-| `serverwatch.log` | Stores ServerWatch output |
-| `README.md`       | Project documentation     |
+| File / Directory  | Description                   |
+| ----------------- | ----------------------------- |
+| `serverwatch.sh`  | Main monitoring script        |
+| `scripts/`        | Individual monitoring scripts |
+| `logs/`           | Stores monitoring logs        |
+| `serverwatch.log` | Stores ServerWatch output     |
+| `reports/`        | Stores health reports         |
+| `images/`         | Project screenshots           |
+| `README.md`       | Project documentation         |
 
 ---
 
@@ -98,6 +122,7 @@ cd ServerWatch
 
 ```bash
 chmod +x serverwatch.sh
+chmod +x scripts/*.sh
 ```
 
 ### 4. Run ServerWatch
@@ -231,6 +256,36 @@ Run the script and save its output:
 ```
 
 The log file can then be used to review previous health checks.
+
+---
+
+## 📄 Health Reports
+
+ServerWatch can generate a health report containing important server information and monitoring results.
+
+The report is stored in:
+
+```text
+reports/health_report.txt
+```
+
+Example:
+
+```text
+===== SERVERWATCH REPORT =====
+
+Date: Mon Sep 15 12:00:00 IST 2026
+Hostname: ubuntu-server
+Uptime: up 2 hours
+
+CPU Usage: 24% - OK
+Memory Usage: 51% - OK
+Disk Usage: 63% - OK
+Network: OK
+SSH Service: RUNNING
+
+Overall Status: HEALTHY
+```
 
 ---
 
@@ -400,3 +455,4 @@ Learning and building with:
 A simple beginning toward building a complete server monitoring and DevOps platform.
 
 If you find this project useful, consider giving the repository a ⭐.
+
