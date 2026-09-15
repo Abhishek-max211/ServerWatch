@@ -75,7 +75,7 @@ Most of these commands are already available on common Linux distributions.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/ServerWatch.git
+git clone https://github.com/Abhishek-max211/ServerWatch.git
 ```
 
 ### 2. Enter the Project
