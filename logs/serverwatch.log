@@ -1,0 +1,59 @@
+bash: ./serverwatch.sh: Permission denied
+==============================
+       SERVERWATCH            
+==============================
+ Hostname:- ubuntu
+ Date:-     14-09-2026 23:28:51
+ Uptime:-   up 7 minutes
+
+---------CPU Usage------------
+CPU Usage:- 5.9%
+🟢 OK: CPU usage is normal.
+
+---------Disk Usage-----------
+Disk Usage:- 50
+🟢 Disk usage is healthy!
+
+---------Memory Usage---------
+Memory Usage: 24%
+🟢 Memory Usage is healthy!
+
+--------Network Monitoring--------
+🟢 Internet is working
+
+--------Service Monitoring--------
+Enter the Service name that you want to check:- Too few arguments.
+🔴  Service: DOWN
+
+==============================
+Overall Status: ⚠️  WARNING
+==============================
+==============================
+       SERVERWATCH            
+==============================
+ Hostname:- ubuntu
+ Date:-     15-09-2026 00:00:01
+ Uptime:-   up 38 minutes
+
+---------CPU Usage------------
+CPU Usage:- 94.6%
+⚠️  WARNING: CPU usage is high!
+
+---------Disk Usage-----------
+Disk Usage:- 50
+🟢 Disk usage is healthy!
+
+---------Memory Usage---------
+Memory Usage: 24%
+🟢 Memory Usage is healthy!
+
+--------Network Monitoring--------
+🟢 Internet is working
+
+--------Service Monitoring--------
+Too few arguments.
+🔴  Service: DOWN
+
+==============================
+Overall Status: ⚠️  WARNING
+==============================
