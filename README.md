@@ -36,8 +36,18 @@ The project checks the server periodically and identifies whether important reso
 ServerWatch/
 │
 ├── serverwatch.sh
+│
+├── scripts/
+│   ├── cpu_check.sh
+│   ├── memory_check.sh
+│   ├── disk_check.sh
+│   └── service_check.sh
+│
 ├── logs/
 │   └── serverwatch.log
+│
+├── reports/
+│   └── health_report.txt
 │
 └── README.md
 ```
