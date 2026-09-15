@@ -35,10 +35,12 @@ The project checks the server periodically and identifies whether important reso
 ### ServerWatch Output
 
 ![ServerWatch Output](serverwatch-output.png)
+![ServerWatch Output](serverwatch-output1.png)
 
 ### Health Report
 
 ![Health Report](health-report.png)
+![Health Report](health-report1.png)
 
 ### ServerWatch Project Structure
 
